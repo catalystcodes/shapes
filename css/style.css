@@ -6,21 +6,27 @@ body {
     background: blue;
     height: 100px;
     width: 100px;
+    margin-bottom: 50px;
+    margin-left: 70px;
 }
 
 #circle {
     background: red;
     border-radius: 100px;
-    height: 5.5rem;
-    width: 5.5rem;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 50px;
+    margin-left: 70px;
 }
 
 #triangle {
     width: 0;
     height: 0;
-    border-left: 40px solid transparent;
-    border-right: 40px solid transparent;
-    border-bottom: 80px solid lightblue;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid lightblue;
+    margin-bottom: 50px;
+    margin-left: 70px;
 }
 
 .head1 {
@@ -29,7 +35,38 @@ body {
     border-left: 45px solid transparent;
     border-right: 100px solid transparent;
     border-bottom: 50px solid purple;
+    margin-bottom: 50px;
+    margin-left: 70px;
 }
 
-git init git add README.md git commit -m "first commit" git remote add origin https: //github.com/mubby101/shapes.git
-git push -u origin master
+#rectangle {
+    width: 25rem;
+    height: 10rem;
+    background: indigo;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+#oval {
+    width: 180px;
+    height: 100px;
+    background: crimson;
+    border-radius: 150px / 90px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+
+#triangle2 {
+    width: 0px;
+    height: 0px;
+    border-top: 150px solid crimson;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 200px;
+}
