@@ -71,10 +71,19 @@ h1 {
     margin-left: 70px;
 }
 
-#lefttriangle {
+#left-triangle {
     width: 0;
     height: 0;
     border-right: 100px solid blue;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    margin-left: 70px;
+}
+
+#right-triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid yellowgreen;
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
     margin-left: 70px;
