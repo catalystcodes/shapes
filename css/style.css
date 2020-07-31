@@ -58,13 +58,12 @@ h1 {
 }
 
 #oval {
-    width: 180px;
+    width: 200px;
     height: 100px;
     background: crimson;
-    border-radius: 150px / 90px;
-    margin-left: 70px;
-    margin-bottom: 100px;
-    margin-top: 3rem;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
 }
 
 #triangle2 {
@@ -142,4 +141,33 @@ h1 {
     border-left: 100px solid transparent;
     margin-left: 70px;
     margin-top: 3rem;
+}
+
+#trapezium {
+    height: 0;
+    width: 30px;
+    border-bottom: 80px solid sandybrown;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    margin-left: 70px;
+    margin-left: 3rem;
+}
+
+#diamond {
+    width: 80px;
+    height: 80px;
+    background: blue;
+    margin: 3px 0 0 30px;
+    /* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    /* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
 }
